@@ -1,3 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">NewsApp1</string>
+    <string name="app_name">News App</string>
+    <string name="title_news">Isi 17+8 Tuntutan Rakyat Tugas untuk Prabowo: Reformasi DPR dan Sahkan RUU Perampasan Aset</string>
+    <string name="content_news">
+        JAKARTA, KOMPAS.com - Demonstrasi yang terjadi dalam beberapa hari terakhir di berbagai daerah melahirkan tuntutan rakyat yang bertajuk "17+8 Tuntutan Rakyat". Tuntutan ini menjadi viral di media sosial, disebarkan oleh ribuan warganet dan influencer.
+
+        Isi tuntutan ini dibagi menjadi dua bagian utama. Pertama, 17 Tuntutan Mendesak yang memiliki tenggat waktu hingga 5 September 2025. Tuntutan ini secara spesifik ditujukan kepada berbagai institusi negara. Kepada Presiden Prabowo, rakyat menuntut penarikan TNI dari pengamanan sipil dan pembentukan tim investigasi independen untuk kasus kekerasan aparat.
+
+        Kepada Dewan Perwakilan Rakyat (DPR), tuntutan meliputi pembekuan kenaikan gaji/tunjangan, transparansi anggaran, dan mendorong Badan Kehormatan untuk memeriksa anggota yang bermasalah. Untuk partai politik, tuntutan agar mereka memecat kader yang tidak etis dan terlibat dalam dialog publik. Kepada Kepolisian Republik Indonesia (Polri), rakyat menuntut pembebasan demonstran yang ditahan dan penghentian kekerasan aparat. Sementara TNI diminta untuk kembali ke barak dan menghentikan keterlibatan dalam urusan sipil.
+
+        Bagian kedua adalah 8 Tuntutan Jangka Panjang dengan tenggat waktu hingga 31 Agustus 2026. Tuntutan ini berfokus pada reformasi struktural yang lebih dalam. Hal ini mencakup reformasi besar-besaran terhadap DPR, termasuk audit independen, penolakan mantan koruptor sebagai anggota, dan penghapusan perlakuan istimewa seperti pensiun seumur hidup. Selain itu, tuntutan juga menyentuh reformasi partai politik, perbaikan sistem perpajakan, pengesahan UU Perampasan Aset Koruptor, reformasi Polri, dan penguatan lembaga independen seperti Komnas HAM.
+    </string>
+    <string name="prev">Sebelumnya</string>
+    <string name="next">Selanjutnya</string>
 </resources>
