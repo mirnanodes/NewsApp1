@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -20,10 +21,13 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:padding="16dp">
 
             <ImageView
-                android:id="@+id/img_news" android:src="@drawable/img_news" android:layout_width="0dp"
+                android:id="@+id/img_news"
+                android:src="@drawable/img_news"
+                android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -41,35 +45,39 @@
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/img_news" /> <TextView
-            android:id="@+id/txt_content_news"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:lineSpacingExtra="4dp"
-            android:text="@string/content_news"
-            android:textColor="@android:color/darker_gray"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_title_news" />
+                app:layout_constraintTop_toBottomOf="@+id/img_news" />
+
+            <TextView
+                android:id="@+id/txt_content_news"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/content_news"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_title_news" />
 
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/guideline_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_constraintGuide_percent="0.5" /> <Button
-            android:id="@+id/btn_prev"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
-            android:text="@string/prev"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/guideline_vertical"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_content_news" />
+                app:layout_constraintGuide_percent="0.5" />
+
+            <Button
+                android:id="@+id/btn_prev"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/prev"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline_vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_content_news" />
 
             <Button
                 android:id="@+id/btn_next"
@@ -79,7 +87,8 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/next"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@+id/guideline_vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline_vertical"
                 app:layout_constraintTop_toBottomOf="@+id/txt_content_news" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
